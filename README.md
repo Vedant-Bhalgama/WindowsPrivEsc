@@ -4,3 +4,8 @@ Repository on Windows Privilege Escalation, It contains helpful resources which 
 # Windows Privilege Escalation (PDF)
 
 https://drive.google.com/file/d/1HKCnurafqC2RU0zCZI2DAWjvHDCzB5nY/view?usp=sharing
+
+# Socials
+
+TwitterID: https://twitter.com/BhalgamaVedant 
+YouTube: https://www.youtube.com/channel/UCIlMtOiRDi1luvhtjczvjJw 
