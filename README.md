@@ -5,11 +5,17 @@ Repository on Windows Privilege Escalation, It contains helpful resources which 
 ## PowerShell Basic Commands:
 
 `Get-ChildItem` (Displays all the contents in the current directory)
+
 `Get-Alias` (Displays all the aliases)
+
 `Set-Alias` (Setup your Alias)
+
 `$profile` (Lists your powershell profile, for eg: `"C:\Users\user\Documents\WindowsPowerShell\Microsoft.PowerShell_profile.ps1"`)
+
 `Import-Module ./PowerUp.ps1` (Imports a PowerShell Script Module)
+
 `Remove-Item` (Delete any file or folder)
+
 `Import-Alias` (Import aliases)
 
 ## Download and Execute:
